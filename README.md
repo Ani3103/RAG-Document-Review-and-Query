@@ -16,9 +16,6 @@ In addition to question answering, the project also includes a technical review 
 The application combines FastAPI, Streamlit, SentenceTransformers, ChromaDB, and Google Gemini to create a modular multi-agent workflow for intelligent document analysis.
 
 ---
-
-# README
-
 ## Overview
 
 The Academic Agent System is a modular AI-based document analysis platform built using a Retrieval-Augmented Generation (RAG) architecture.
