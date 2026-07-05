@@ -1,4 +1,4 @@
-# Multi Agent System – RAG & Document Review Platform
+# RAG-Based Document Query and Technical Review System
 
 ## Project Description
 
@@ -18,7 +18,7 @@ The application combines FastAPI, Streamlit, SentenceTransformers, ChromaDB, and
 ---
 ## Overview
 
-The Academic Agent System is a modular AI-based document analysis platform built using a Retrieval-Augmented Generation (RAG) architecture.
+The Academic Document System is a modular AI-based document analysis platform built using a Retrieval-Augmented Generation (RAG) architecture.
 
 Users can:
 
@@ -46,7 +46,7 @@ The project demonstrates concepts from:
 
 * Upload PDF documents using the Streamlit interface
 * Extract text using `pypdf`
-* Split text into semantic chunks
+* Split text into  chunks
 * Clean noisy or irrelevant chunks
 
 ### Embedding Generation
@@ -324,11 +324,12 @@ Generates a technical review report from uploaded content.
 ## In Progress
 
 * Summarization module
-* Improved retrieval filtering
+* Improved retrieval filtering using Metadata
+* Iterative Retrival
 * Better context validation
 * Enhanced error handling
 * Deployment optimization
-
+  
 ---
 
 # Challenges Faced
@@ -367,13 +368,14 @@ Restricted retrieved context and optimized chunk handling.
 
 * Multi-document support
 * Citation-aware answers
+* Query Intent Interpretation
 * OCR support for scanned PDFs
 * Authentication system
+* Agent orchestration for Technical Report system to check Citations
 * Advanced summarization pipeline
 * Hybrid retrieval (BM25 + embeddings)
 * Docker deployment
 * Cloud deployment
-* Agent orchestration improvements
 
 ---
 
@@ -384,7 +386,7 @@ This project helped strengthen understanding of:
 * Retrieval-Augmented Generation (RAG)
 * Vector databases
 * Embedding pipelines
-* AI agent workflows
+* Chunking Strategies
 * Backend API architecture
 * Semantic search systems
 * LLM integration
